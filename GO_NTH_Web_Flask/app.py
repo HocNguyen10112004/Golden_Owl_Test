@@ -9,11 +9,8 @@ from routes.top10 import top10_bp
 
 app = Flask(__name__)
 app.config.from_object(Config)
-
-# Khởi tạo database
 db.init_app(app)
 
-# Đăng ký các route
 app.register_blueprint(home_bp)
 app.register_blueprint(statistics_bp)
 app.register_blueprint(chart_bp)
