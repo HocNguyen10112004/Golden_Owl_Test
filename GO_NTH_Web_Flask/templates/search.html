@@ -1,0 +1,33 @@
+{% extends "base.html" %}
+
+{% block title %}Tra cứu điểm{% endblock %}
+
+{% block content %}
+<div class="container">
+    <h2 class="text-center">🔍 Tra cứu điểm thi</h2>
+
+    <form method="POST" class="mt-4">
+        <div class="mb-3">
+            <label for="sbd" class="form-label">Nhập số báo danh:</label>
+            <input type="text" name="sbd" class="form-control" required>
+        </div>
+        <button type="submit" class="btn btn-primary w-100">Tra cứu</button>
+    </form>
+
+    {% if error_message %}
+        <div class="alert alert-danger mt-3">{{ error_message }}</div>
+    {% endif %}
+
+    {% if student %}
+        <div class="card mt-4">
+            <div class="card-body">
+                <h4 class="card-title">Kết quả tìm kiếm</h4>
+                <p><strong>Số báo danh:</strong> {{ student.sbd }}</p>
+                <p><strong>Toán:</strong> {{ student.toan }}</p>
+                <p><strong>Ngữ Văn:</strong> {{ student.ngu_van }}</p>
+                <p><strong>Ngoại Ngữ:</strong> {{ student.ngoai_ngu }}</p>
+            </div>
+        </div>
+    {% endif %}
+</div>
+{% endblock %}

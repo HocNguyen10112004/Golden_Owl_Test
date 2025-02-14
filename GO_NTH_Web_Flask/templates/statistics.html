@@ -1,0 +1,36 @@
+{% extends "base.html" %}
+
+{% block title %}Thống kê điểm{% endblock %}
+
+{% block content %}
+<div class="container">
+    <h2 class="text-center mt-4">📊 Thống kê số lượng học sinh theo mức điểm</h2>
+
+    <table class="table table-striped table-bordered mt-4">
+        <thead class="table-dark">
+            <tr>
+                <th>Môn học</th>
+                <th>≥ 8 điểm</th>
+                <th>6 - 8 điểm</th>
+                <th>4 - 6 điểm</th>
+                <th>< 4 điểm</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for subject, stats in subject_stats.items() %}
+            <tr>
+                <td><strong>{{ subject }}</strong></td>
+                <td>{{ stats[">=8"] }}</td>
+                <td>{{ stats["6-8"] }}</td>
+                <td>{{ stats["4-6"] }}</td>
+                <td>{{ stats["<4"] }}</td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+
+    <div class="text-center mt-4">
+        <a href="{{ url_for('home.home') }}" class="btn btn-secondary">⬅ Trở về trang chủ</a>
+    </div>
+</div>
+{% endblock %}

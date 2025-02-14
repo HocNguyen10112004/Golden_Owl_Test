@@ -1,0 +1,25 @@
+{% extends "base.html" %}
+
+{% block title %}Trang chủ{% endblock %}
+
+{% block content %}
+<div class="text-center">
+    <h1 class="mt-4">📚 Hệ thống tra cứu điểm thi</h1>
+    <p class="lead">Chọn một chức năng bên dưới:</p>
+
+    <div class="row mt-4">
+        <div class="col-md-3">
+            <a href="{{ url_for('search.search') }}" class="btn btn-primary btn-lg w-100">🔍 Tra cứu điểm</a>
+        </div>
+        <div class="col-md-3">
+            <a href="{{ url_for('statistics.statistics') }}" class="btn btn-success btn-lg w-100">📊 Thống kê</a>
+        </div>
+        <div class="col-md-3">
+            <a href="{{ url_for('chart.chart') }}" class="btn btn-info btn-lg w-100">📈 Biểu đồ</a>
+        </div>
+        <div class="col-md-3">
+            <a href="{{ url_for('top10.top10_khoiA') }}" class="btn btn-warning btn-lg w-100">🏆 Top 10 khối A</a>
+        </div>
+    </div>
+</div>
+{% endblock %}

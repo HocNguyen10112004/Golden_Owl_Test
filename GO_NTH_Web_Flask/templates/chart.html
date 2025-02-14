@@ -1,0 +1,17 @@
+{% extends "base.html" %}
+
+{% block title %}Biểu đồ thống kê{% endblock %}
+
+{% block content %}
+<div class="container">
+    <h2 class="text-center mt-4">📈 Biểu đồ thống kê điểm</h2>
+
+    <div class="text-center mt-4">
+        <img src="data:image/png;base64,{{ plot_url }}" class="img-fluid" alt="Thống kê điểm">
+    </div>
+
+    <div class="text-center mt-4">
+        <a href="{{ url_for('home.home') }}" class="btn btn-secondary">⬅ Trở về trang chủ</a>
+    </div>
+</div>
+{% endblock %}
