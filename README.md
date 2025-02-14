@@ -3,7 +3,17 @@ I. Tạo database từ file csv:
   2. Chạy file create.py trong Folder GO_NTH_CsvToSql
   3. Chạy file insert.py trong Folder GO_NTH_CsvToSql
 II. Khởi chạy website (local)
-  1. import các thư viện cần thiết trong file requirement.txt
+  1. cài đặt các thư viện, packages cần thiết 
   2. chạy file app.py và nhấn Ctrl đồng thời nhấp vào link hiện ra trên terminal
   3. Sử dụng website
-     
+III. Demo
+![image](https://github.com/user-attachments/assets/552d3b33-dfd4-4a4e-ac3e-958eca935734)
+![image](https://github.com/user-attachments/assets/9eedde28-27ca-4e80-afc1-e315acb1d379)
+![image](https://github.com/user-attachments/assets/752bbc70-047c-41a4-970d-d46efe6716a0)
+![image](https://github.com/user-attachments/assets/7974b1c7-c273-490f-8b07-123b7ddcc4e7)
+![image](https://github.com/user-attachments/assets/ae0cebeb-12a4-4c0b-a427-216191ba314e)
+
+
+
+
+
