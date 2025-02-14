@@ -1,5 +1,6 @@
-*Tôi đã cố gắng deploy website trên các free host nhưng nó đều không hoạt động hoặc không hỗ trợ Flask + MySQL, mong phía công ty thông cảm
+*Tôi đã cố gắng deploy website trên các free host nhưng nó đều không hoạt động hoặc không hỗ trợ Flask + MySQL, mong phía công ty thông cảm!
 
+*Note: thay đổi "password" trong các file create.py; insert.py; config.py cho phù hợp với thiết bị local hiện tại (password mặc định cho server MySQL là 123456)
 I. Tạo database từ file csv:
   1. Tạo 1 database tên "diem_thi_thpt" trong MySQL Workbench
   2. Chạy file create.py trong Folder GO_NTH_CsvToSql
