@@ -1,6 +1,7 @@
 *Tôi đã cố gắng deploy website trên các free host nhưng nó đều không hoạt động hoặc không hỗ trợ Flask + MySQL, mong phía công ty thông cảm!
 
 *Note: thay đổi "password" trong các file create.py; insert.py; config.py cho phù hợp với thiết bị local hiện tại (password mặc định cho server MySQL là 123456)
+
 I. Tạo database từ file csv:
   1. Tạo 1 database tên "diem_thi_thpt" trong MySQL Workbench
   2. Chạy file create.py trong Folder GO_NTH_CsvToSql
@@ -10,7 +11,9 @@ II. Khởi chạy website (local)
   1. cài đặt các thư viện cần thiết trong file requirements.txt bằng lệnh "pip install -r requirements.txt"
   2. chạy file app.py bên trong Folder GO_NTH_Web_Flask và nhấn Ctrl đồng thời nhấp vào link hiện ra trên terminal
   3. Sử dụng website
+  4. 
 III. Demo
+
 Trang chủ
 ![image](https://github.com/user-attachments/assets/552d3b33-dfd4-4a4e-ac3e-958eca935734)
 
