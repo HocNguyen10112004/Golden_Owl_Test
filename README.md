@@ -7,7 +7,7 @@ I. Tạo database từ file csv:
 
 II. Khởi chạy website (local)
   1. cài đặt các thư viện, packages cần thiết 
-  2. chạy file app.py và nhấn Ctrl đồng thời nhấp vào link hiện ra trên terminal
+  2. chạy file app.py bên trong Folder GO_NTH_Web_Flask và nhấn Ctrl đồng thời nhấp vào link hiện ra trên terminal
   3. Sử dụng website
 III. Demo
 Trang chủ
