@@ -1,4 +1,4 @@
-*Tôi đã cố gắng deploy website trên các free host nhưng nó đều không hoạt động hoặc không hỗ trợ Flask + MySQL
+*Tôi đã cố gắng deploy website trên các free host nhưng nó đều không hoạt động hoặc không hỗ trợ Flask + MySQL, mong phía công ty thông cảm
 
 I. Tạo database từ file csv:
   1. Tạo 1 database tên "diem_thi_thpt" trong MySQL Workbench
@@ -6,7 +6,7 @@ I. Tạo database từ file csv:
   3. Chạy file insert.py trong Folder GO_NTH_CsvToSql
 
 II. Khởi chạy website (local)
-  1. cài đặt các thư viện, packages cần thiết 
+  1. cài đặt các thư viện cần thiết trong file requirements.txt bằng lệnh "pip install -r requirements.txt"
   2. chạy file app.py bên trong Folder GO_NTH_Web_Flask và nhấn Ctrl đồng thời nhấp vào link hiện ra trên terminal
   3. Sử dụng website
 III. Demo
